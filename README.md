@@ -2,7 +2,7 @@
 
 Created webpage using HTML and scss.
 
-You can check my webpage :
+You can check my webpage :https://chit2021.github.io/Responsive_Design_HTML_SCSS/
 
 Refer to this [link](https://preview.themeforest.net/item/maido-multipurpose-ghost-blog-theme/full_screen_preview/24837109?_ga=2.259990478.570486835.1654146705-2133876429.1654146705)(see 'Dark version')
 
