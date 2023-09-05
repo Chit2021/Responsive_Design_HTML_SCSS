@@ -1,0 +1,72 @@
+@use "../variables/fonts";
+@use "../variables/colors";
+
+footer {
+  width: 90%;
+  margin: auto;
+  padding: 100px 0;
+  div {
+    display: flex;
+    justify-content: space-between;
+    nav ul {
+      display: flex;
+      float: left;
+      bottom: 0;
+      & li {
+        list-style: none;
+        padding: 10px;
+        position: relative;
+      }
+      }
+      a {
+        text-decoration: none;
+        color: colors.$text-light-color;
+        font-size: 15px;
+        &:hover::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 5px;
+          height: 5px;
+          background-color: colors.$text-light-color;
+          border-radius: 50%;
+        }
+        &:active::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 5px;
+          height: 5px;
+          background-color: colors.$orange-color;
+          border-radius: 50%;
+        }
+      }
+      .fa-search {
+        color: colors.$text-light-color;
+      }
+    }
+    .right{
+      display: flex;
+      li{
+          margin: 0 10px;
+          float: left;
+          &:hover i{
+              color: #f7591b;
+          }
+      }
+      .fa-instagram {
+        color: colors.$text-light-color;
+      }
+      .fa-twitter {
+        color: colors.$text-light-color;
+      }
+    }
+    p{
+      margin-left: 10px;
+      color: colors.$text-light-color;
+    }
+  } 
+
+
